@@ -27,9 +27,4 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-
-    setInterval(() => {
-        currentIndex = (currentIndex + 1) % images.length;
-        showImage(currentIndex);
-    }, 2000);
-});
+})
